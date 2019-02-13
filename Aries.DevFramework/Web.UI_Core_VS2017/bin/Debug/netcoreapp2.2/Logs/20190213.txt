@@ -1,0 +1,420 @@
+V5.7.9.1 Record On : 2019/2/13 16:03:59 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:03:59 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:04:24 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:04:25 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:04:49 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:26:45 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:26:46 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:06 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:06 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:18 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:19 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:20 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:20 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:20 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:29 : http://localhost:5000/index.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 127
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:29 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:30 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:34 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:54 : http://localhost:5000/index.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 127
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:54 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+
+V5.7.9.1 Record On : 2019/2/13 16:28:55 : http://localhost:5000/login.html
+
+[Exception]:The type initializer for 'Aries.Core.Config.LangConst' threw an exception.:V5.7.9.1 Can't find the connection key 'AriesConn' from web.config or app.config!
+   at CYQ.Data.Error.Throw(String msg)
+   at CYQ.Data.DalCreate.GetConnObject(String dbConn)
+   at CYQ.Data.DalCreate.CreateDal(String dbConn)
+   at CYQ.Data.MAction.InitSqlHelper(MDataRow newRow, String newDbName)
+   at CYQ.Data.MAction.Init(Object tableObj, String conn)
+   at Aries.Core.Config.KeyValueConfig.get_KeyValueTable() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\KeyValueConfig.cs:line 30
+   at Aries.Core.Config.LangConst.getConfig(String& theme, String& language) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 88
+   at Aries.Core.Config.LangConst.InitKeyValue() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 121
+   at Aries.Core.Config.LangConst..cctor() in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 73
+   at Aries.Core.Config.LangConst.ReplateHtmlLanguage(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Config\LangConst.cs:line 213
+   at Aries.Core.Extend.ReplaceText.ReplaceHtml(String html) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 128
+   at Aries.Core.Extend.ReplaceText.Replace(Byte[] buffer, Int32 offset, Int32 count) in D:\core\Aries\Aries.DevFramework\Aries.Core\Extend\HttpResponseFilter.cs:line 108
+   at Aries.Core.UrlRewrite.ReplaceOutput() in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 228
+   at Aries.Core.UrlRewrite.context_AcquireRequestState(Object sender, EventArgs e) in D:\core\Aries\Aries.DevFramework\Aries.Core\UrlRewrite.cs:line 120
+   at Microsoft.AspNetCore.Http.AriesMiddleware.Invoke(HttpContext context) in D:\core\Aries\Aries.DevFramework\Aries.Core\AriesMiddleware.cs:line 29
+---------------------------------------
+

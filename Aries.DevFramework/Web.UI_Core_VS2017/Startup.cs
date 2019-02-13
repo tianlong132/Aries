@@ -29,6 +29,7 @@ namespace Web.UI_Core_VS2017
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseStaticFiles();
             app.UseSession();
             app.UseHttpContext();
             app.UseAries(env);
