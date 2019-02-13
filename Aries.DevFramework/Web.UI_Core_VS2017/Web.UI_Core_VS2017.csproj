@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
     <AssemblyName>Web.UI</AssemblyName>
     <RootNamespace>Web.UI</RootNamespace>
   </PropertyGroup>
@@ -15,7 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\CYQ.Data-GitHub\trunk\CYQ.Data_Core_VS2017.csproj" />
     <ProjectReference Include="..\Aries.Controllers\Aries.Controllers_Core_VS2017.csproj" />
     <ProjectReference Include="..\Aries.Core\Aries.Core_Core_VS2017.csproj" />
     <ProjectReference Include="..\Aries.Logic\Aries.Logic_Core_VS2017.csproj" />

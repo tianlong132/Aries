@@ -1,0 +1,12 @@
+D:\core\Aries\Aries.DevFramework\Aries.Logic\obj\Debug\netcoreapp2.2\Aries.Logic_Core_VS2017.csprojAssemblyReference.cache
+D:\core\Aries\Aries.DevFramework\Aries.Logic\obj\Debug\netcoreapp2.2\Aries.Logic_Core_VS2017.csproj.CoreCompileInputs.cache
+D:\core\Aries\Aries.DevFramework\Aries.Logic\obj\Debug\netcoreapp2.2\Aries.Logic_Core_VS2017.AssemblyInfoInputs.cache
+D:\core\Aries\Aries.DevFramework\Aries.Logic\obj\Debug\netcoreapp2.2\Aries.Logic_Core_VS2017.AssemblyInfo.cs
+D:\core\Aries\Aries.DevFramework\Aries.Logic\bin\Debug\netcoreapp2.2\Aries.Logic.deps.json
+D:\core\Aries\Aries.DevFramework\Aries.Logic\bin\Debug\netcoreapp2.2\Aries.Logic.dll
+D:\core\Aries\Aries.DevFramework\Aries.Logic\bin\Debug\netcoreapp2.2\Aries.Logic.pdb
+D:\core\Aries\Aries.DevFramework\Aries.Logic\bin\Debug\netcoreapp2.2\Aries.Core.dll
+D:\core\Aries\Aries.DevFramework\Aries.Logic\bin\Debug\netcoreapp2.2\Aries.Core.pdb
+D:\core\Aries\Aries.DevFramework\Aries.Logic\obj\Debug\netcoreapp2.2\Aries.Logic_Core_VS2017.csproj.CopyComplete
+D:\core\Aries\Aries.DevFramework\Aries.Logic\obj\Debug\netcoreapp2.2\Aries.Logic.dll
+D:\core\Aries\Aries.DevFramework\Aries.Logic\obj\Debug\netcoreapp2.2\Aries.Logic.pdb
